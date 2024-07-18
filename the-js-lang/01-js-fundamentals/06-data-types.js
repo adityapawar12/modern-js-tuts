@@ -9,8 +9,8 @@ let n = 123;
 n = 12.345;
 
 console.log(" n ", n);
-console.log( 1 / 0 );
-console.log( "not a number" / 2 );
+console.log(1 / 0);
+console.log("not a number" / 2);
 
 // BIGINT
 // the "n" at the end means it's a BigInt
@@ -20,7 +20,7 @@ console.log(" bigInt ", bigInt);
 
 // STRINGS
 let str = "Hello";
-let str2 = 'Single quotes are ok too';
+let str2 = "Single quotes are ok too";
 let phrase = `can embed another ${str}`;
 
 console.log(" phrase ", phrase);
@@ -41,4 +41,3 @@ console.log(" age ", age);
 let age2;
 
 console.log(" age2 ", age2);
-
